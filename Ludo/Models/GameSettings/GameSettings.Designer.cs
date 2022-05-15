@@ -160,7 +160,7 @@ namespace Ludo
             this.btnStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
             this.btnStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnStart.Location = new System.Drawing.Point(221, 42);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(69, 22);
@@ -253,7 +253,7 @@ namespace Ludo
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GameSettings";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sélectionner le nombre de joueurs";
+            this.Text = "Select the number of players";
             this.Load += new System.EventHandler(this.GameSettings_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

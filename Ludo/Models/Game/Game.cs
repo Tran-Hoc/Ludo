@@ -113,5 +113,25 @@ namespace Ludo.Models.Game
 
             return result.ToList();
         }
+
+        //private void DiceEnabledChanged(object sender, EventArgs e)
+        //{
+
+        //}
+
+        //private void HandleDiceClick(object sender, EventArgs e)
+        //{
+
+        //}
+
+        //private void HandlePawnClick(object sender, EventArgs e)
+        //{
+
+        //}
+
+        //private void pbPlayground_Click(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }

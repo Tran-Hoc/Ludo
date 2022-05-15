@@ -84,7 +84,7 @@ namespace Ludo.Models.Game
             this.lblTurn.Name = "lblTurn";
             this.lblTurn.Size = new System.Drawing.Size(122, 30);
             this.lblTurn.TabIndex = 26;
-            this.lblTurn.Text = "NomJoueur";
+            this.lblTurn.Text = "PlayerName";
             this.lblTurn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblStandartName
@@ -116,9 +116,9 @@ namespace Ludo.Models.Game
             this.lblCatapultName.ForeColor = System.Drawing.Color.White;
             this.lblCatapultName.Location = new System.Drawing.Point(1, 187);
             this.lblCatapultName.Name = "lblCatapultName";
-            this.lblCatapultName.Size = new System.Drawing.Size(78, 13);
+            this.lblCatapultName.Size = new System.Drawing.Size(59, 13);
             this.lblCatapultName.TabIndex = 29;
-            this.lblCatapultName.Text = " lance-pierre";
+            this.lblCatapultName.Text = "Slingshot";
             // 
             // lblNineName
             // 
@@ -127,9 +127,9 @@ namespace Ludo.Models.Game
             this.lblNineName.ForeColor = System.Drawing.Color.White;
             this.lblNineName.Location = new System.Drawing.Point(79, 187);
             this.lblNineName.Name = "lblNineName";
-            this.lblNineName.Size = new System.Drawing.Size(34, 13);
+            this.lblNineName.Size = new System.Drawing.Size(33, 13);
             this.lblNineName.TabIndex = 30;
-            this.lblNineName.Text = "Neuf";
+            this.lblNineName.Text = "Nine";
             // 
             // label5
             // 
@@ -138,9 +138,9 @@ namespace Ludo.Models.Game
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(36, 295);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 13);
+            this.label5.Size = new System.Drawing.Size(62, 13);
             this.label5.TabIndex = 31;
-            this.label5.Text = "de Roue !";
+            this.label5.Text = "of Wheel!";
             // 
             // btnWheel
             // 
@@ -518,7 +518,7 @@ namespace Ludo.Models.Game
             this.lblEscaped.Name = "lblEscaped";
             this.lblEscaped.Size = new System.Drawing.Size(61, 37);
             this.lblEscaped.TabIndex = 37;
-            this.lblEscaped.Text = "Pions :";
+            this.lblEscaped.Text = "Player";
             this.lblEscaped.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pbEscapedPawn
@@ -565,7 +565,7 @@ namespace Ludo.Models.Game
             this.lblWinner.Name = "lblWinner";
             this.lblWinner.Size = new System.Drawing.Size(374, 48);
             this.lblWinner.TabIndex = 40;
-            this.lblWinner.Text = "Player X wins";
+            this.lblWinner.Text = "Player X win";
             this.lblWinner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -573,11 +573,11 @@ namespace Ludo.Models.Game
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(13, 276);
+            this.label1.Location = new System.Drawing.Point(28, 282);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 13);
+            this.label1.Size = new System.Drawing.Size(74, 13);
             this.label1.TabIndex = 41;
-            this.label1.Text = "Gagner une partie";
+            this.label1.Text = "Win a game";
             // 
             // Game
             // 
@@ -626,7 +626,8 @@ namespace Ludo.Models.Game
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ludo -Chicco oussama";
+            this.Text = "Cờ cá ngựa";
+            this.Load += new System.EventHandler(this.Game_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEscapedPawn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPlayground)).EndInit();

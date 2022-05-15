@@ -113,5 +113,10 @@ namespace Ludo.Models.Game
 
             return result.ToList();
         }
+
+        private void Game_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

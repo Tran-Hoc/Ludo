@@ -378,6 +378,57 @@
   <ItemGroup>
     <None Include="Sounds\EvilLaugh.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-xanhla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-xanhla1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-xanhla2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-xanhla3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-do.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-do1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-do2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-do3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-xanh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-xanh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-xanh2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-xanh3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-vang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-vang1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-vang2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ngua-vang3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pbPlayground.Image.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

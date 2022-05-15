@@ -58,13 +58,20 @@
         {
             if (this.IsAtHome)
             {
-                if (steps == DiceConstants.MaxStandart)
+                if (steps == DiceConstants.MaxStandart )
                 {
                     this.IsAtHome = false;
                     this.PawnPos = PlaygroundConstants.PlayerStartPos[(int)this.Color];
                     this.CurrentField = playground[this.PawnPos];
                     AudioPlayer.PlayStepSound();
-                }              
+                }
+                if (steps == DiceConstants.MinStandart)
+                {
+                    this.IsAtHome = false;
+                    this.PawnPos = PlaygroundConstants.PlayerStartPos[(int)this.Color];
+                    this.CurrentField = playground[this.PawnPos];
+                    AudioPlayer.PlayStepSound();
+                }
 
                 return;
             }

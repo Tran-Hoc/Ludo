@@ -116,7 +116,7 @@ namespace Ludo.Models.Game
                         AudioPlayer.PlayClickSound();
                         this.lblStandart.Text = $"{val}";
                         
-                        if (val < DiceConstants.MaxStandart && currentPlayer.PawnsAtHome + currentPlayer.PawnsEscaped == PlayerConstants.PawnsPerPlayer)
+                        if (val != DiceConstants.MaxStandart && val != DiceConstants.MinStandart && currentPlayer.PawnsAtHome + currentPlayer.PawnsEscaped == PlayerConstants.PawnsPerPlayer)
                         {
 
                             if (this.curPlayerInitialThrows > 1)
